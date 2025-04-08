@@ -1,0 +1,70 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+papermind_frontend/node_modules
+papermind_frontend/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+papermind_frontend/.next/
+papermind_frontend/out/
+
+# production
+papermind_frontend/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+papermind_frontend/.env*
+
+# vercel
+papermind_frontend/.vercel
+
+# typescript
+*.tsbuildinfo
+papermind_frontend/next-env.d.ts
+
+papermind_frontend/lib
+papermind_frontend/lib
+papermind_frontend/app/lib
+
+# Django 
+*.log
+*.pot
+*.pyc
+__pycache__/
+papermind_backend/db.sqlite3
+media
+local_settings.py
+
+# Environments 
+.env 
+.venv 
+papermind_backend/.env/ 
+papermind_backend/venv/ 
+papermind_backend/.venv/
+papermind_backend/media
+ENV/ 
+env.bak/ 
+venv.bak/ 
+
+papermind_backend/tests.py
+papermind_backend/gemini_api.py
+
+
